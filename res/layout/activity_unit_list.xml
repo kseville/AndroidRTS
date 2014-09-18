@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fragment_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" />
+
+<!-- Copyright © 2013. AndroidBegin.com. All rights reserved. Privacy Policy.  -->
+<!-- Creative Commons Licence -->
+<!-- AndroidBegin.com content is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License.  -->
+<!-- For any reuse or distribution, you must make clear to others the license terms of this work. The best way to do this is with a link to this web page.  -->
+<!-- All trademarks and registered trademarks appearing on AndroidBegin.com are the property of their respective owners. -->

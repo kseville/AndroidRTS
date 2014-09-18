@@ -1,0 +1,64 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/tab2iv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tab2iv1"
+        android:layout_alignTop="@+id/tab2tv3"
+        android:src="@drawable/resourcegeneratorhuman" />
+
+    <ImageView
+        android:id="@+id/tab2iv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tab2iv2"
+        android:layout_alignTop="@+id/tab2tv2"
+        android:src="@drawable/constructioncenterhuman" />
+
+    <TextView
+        android:id="@+id/tab2tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="20dp"
+        android:text="Main Base: \nHealth: 100 \nMain Base is required for building other buildings. \nThis building CANNOT be built by the player." />
+
+    <TextView
+        android:id="@+id/tab2tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tab2tv1"
+        android:layout_marginTop="20dp"
+        android:text="Construction Center: \nHealth: 40 \nCost: 30 \nConstruction Center builds units. \nPlayer can have more than one Construction Center." />
+    
+    <TextView
+        android:id="@+id/tab2tv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/tab2tv2"
+        android:layout_below="@+id/tab2tv2"
+        android:layout_marginTop="20dp"
+        android:text="Resource Generator: \nHealth: 30 \nCost: 20 \nResource Generateor generates resources every second. \nPlayer can have more than one Resource Generator." />
+
+    <ImageView
+        android:id="@+id/tab2iv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/tab2tv1"
+        android:layout_marginRight="45dp"
+        android:src="@drawable/mainbasehuman" />
+
+</RelativeLayout>
+
+<!-- Copyright © 2013. AndroidBegin.com. All rights reserved. Privacy Policy. -->
+<!-- Creative Commons Licence -->
+<!-- AndroidBegin.com content is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License. -->
+<!-- For any reuse or distribution, you must make clear to others the license terms of this work. The best way to do this is with a link to this web page. -->
+<!-- All trademarks and registered trademarks appearing on AndroidBegin.com are the property of their respective owners. -->

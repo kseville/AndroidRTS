@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+  	android:layout_height="fill_parent">
+    
+
+	<GridView
+   		android:id="@+id/gridView"
+    	android:numColumns="10"
+    	android:gravity="top"
+    	android:columnWidth="60dp"
+    	android:stretchMode="columnWidth"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content" >
+	</GridView>
+	
+	<Button
+	    android:id="@+id/createScout"
+	    android:layout_height="wrap_content"
+	    android:layout_width="wrap_content"
+	    android:layout_below="@id/gridView"
+	    android:layout_centerHorizontal="true"
+	    android:visibility="gone"
+	    android:text="Create Scout Unit"
+	    android:onClick="createScout" >
+	</Button>
+	
+	<Button
+	    android:id="@+id/createHighPowerUnit"
+	    android:layout_height="wrap_content"
+	    android:layout_width="wrap_content"
+	    android:layout_below="@id/gridView"
+	    android:layout_toLeftOf="@id/createScout"
+	    android:layout_centerHorizontal="true"
+	    android:visibility="gone"
+	    android:text="Create High Power Unit"
+	    android:onClick="createHighPowerUnit" >
+	</Button>
+	
+	<Button
+	    android:id="@+id/createHighHPUnit"
+	    android:layout_height="wrap_content"
+	    android:layout_width="wrap_content"
+	    android:layout_below="@id/gridView"
+	    android:visibility="gone"
+	    android:layout_toRightOf="@id/createScout"
+	    android:layout_centerHorizontal="true"
+	    android:text="Create High HP Unit"
+	    android:onClick="createHighHPUnit" >
+	</Button>
+	
+	<Button
+	    android:id="@+id/cancel"
+	    android:layout_height="wrap_content"
+	    android:layout_width="wrap_content"
+	    android:layout_below="@id/gridView"
+	    android:visibility="gone"
+	    android:layout_centerHorizontal="true"
+	    android:text="Cancel"
+	    android:onClick="cancelBuildingPlacement" >
+	</Button>
+	
+	<Button
+	    android:id="@+id/createConstructionCenter"
+	    android:layout_height="wrap_content"
+	    android:layout_width="wrap_content"
+	    android:layout_below="@id/gridView"
+	    android:visibility="gone"
+	    android:text="Create Construction Center"
+	    android:onClick="createConstructionCenter" >
+	</Button>
+	
+	<Button
+	    android:id="@+id/createResourceGenerator"
+	    android:layout_height="wrap_content"
+	    android:layout_width="wrap_content"
+	    android:layout_below="@id/gridView"
+	    android:visibility="gone"
+	    android:layout_toRightOf="@id/createConstructionCenter"
+	    android:text="Create Resource Generator"
+	    android:onClick="createResourceGenerator" >
+	</Button>
+	
+	<Button
+	    android:id="@+id/deselectUnit"
+	    android:layout_height="wrap_content"
+	    android:layout_width="wrap_content"
+	    android:visibility="gone"
+	    android:layout_below="@id/gridView"
+	    android:layout_centerHorizontal="true"
+	    android:text="Deselect Unit"
+	    android:onClick="deselectUnit">
+	</Button>
+	
+	<TextView
+	    android:id="@+id/Resources"
+	    android:layout_height="wrap_content"
+	    android:layout_width="wrap_content"
+	    android:layout_alignParentBottom="true"
+		android:layout_alignParentRight="true"
+		android:text="Available Resources: ">
+	</TextView>
+	
+	<TextView
+	    android:id="@+id/experience" 
+	    android:layout_height="wrap_content"
+	    android:layout_width="wrap_content"
+	    android:layout_alignParentLeft="true"
+	    android:layout_alignParentBottom="true"
+	    android:visibility="gone"
+	    android:text="Experience: ">
+	</TextView>
+	
+	<TextView
+	    android:id="@+id/level" 
+	    android:layout_height="wrap_content"
+	    android:layout_width="wrap_content"
+	    android:layout_above="@id/experience"
+	    android:visibility="gone"
+	    android:text="Level: ">
+	</TextView>
+	
+	<TextView
+	    android:id="@+id/power" 
+	    android:layout_height="wrap_content"
+	    android:layout_width="wrap_content"
+	    android:layout_above="@id/level"
+	    android:visibility="gone"
+	    android:text="Power: ">
+	</TextView>
+	
+	<TextView
+	    android:id="@+id/hp" 
+	    android:layout_height="wrap_content"
+	    android:layout_width="wrap_content"
+	    android:layout_above="@id/power"
+	    android:visibility="gone"
+	    android:text="HP: ">
+	</TextView>
+	
+	<TextView
+	    android:id="@+id/unitType" 
+	    android:layout_height="wrap_content"
+	    android:layout_width="wrap_content"
+	    android:layout_above="@id/hp"
+	    android:visibility="gone"
+	    android:text="Unit type: ">
+	</TextView>
+	
+	<TextView 
+	    android:id="@+id/buildingHP"
+	    android:layout_height="wrap_content"
+	    android:layout_width="wrap_content"
+	    android:layout_alignParentBottom="true"
+	    android:layout_alignParentLeft="true"
+	    android:visibility="gone"
+	    android:text="HP: ">
+	</TextView>
+	
+	<TextView
+	    android:id="@+id/buildingType"
+	    android:layout_height="wrap_content"
+	    android:layout_width="wrap_content"
+	    android:layout_above="@id/buildingHP"
+	    android:visibility="gone"
+	    android:text="Type: ">
+	</TextView>
+
+</RelativeLayout>

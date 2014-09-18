@@ -1,0 +1,64 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/tab1iv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tab1iv1"
+        android:layout_alignTop="@+id/tab1tv3"
+        android:src="@drawable/circlehuman" />
+
+    <ImageView
+        android:id="@+id/tab1iv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tab1iv2"
+        android:layout_alignTop="@+id/tab1tv2"
+        android:src="@drawable/trianglehuman" />
+
+    <TextView
+        android:id="@+id/tab1tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="20dp"
+        android:text="Balanced Unit: \nHealth: 20 \nPower: 4 \nCost: 2" />
+
+    <TextView
+        android:id="@+id/tab1tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tab1tv1"
+        android:layout_marginTop="20dp"
+        android:text="Strong Attack Unit: \nHealth: 10 \nPower: 8 \nCost: 5" />
+
+    <TextView
+        android:id="@+id/tab1tv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tab1tv2"
+        android:layout_marginTop="33dp"
+        android:text="High HP Unit: \nHealth: 30 \nPower: 2 \nCost: 3" />
+
+    <ImageView
+        android:id="@+id/tab1iv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/tab1tv1"
+        android:layout_marginRight="44dp"
+        android:src="@drawable/squarehuman" />
+
+</RelativeLayout>
+
+<!-- Copyright © 2013. AndroidBegin.com. All rights reserved. Privacy Policy.  -->
+<!-- Creative Commons Licence -->
+<!-- AndroidBegin.com content is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License.  -->
+<!-- For any reuse or distribution, you must make clear to others the license terms of this work. The best way to do this is with a link to this web page.  -->
+<!-- All trademarks and registered trademarks appearing on AndroidBegin.com are the property of their respective owners. -->
